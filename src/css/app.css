@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0}
+html,body{background-color: rgb(238, 241, 241);padding: 0;}
+.container{padding-top:50px; padding-left: 20px; padding-right: 20px; padding-bottom: 50px;}
+.p-1{padding: 5px}
+.p-5{padding: 15PX;}
+.row{margin-top: 10px;margin-bottom: 10px}
+.m-1{margin:5px}
+.m-5{margin: 15px}
+.bg-light{background-color: white}
+.text-light{color:white}
+.text-green{color:rgb(121, 247, 4)}
+.text-yellow{color:rgb(241, 245, 8)}
+.text-tia{color:rgb(10, 245, 147)}
+.text-blue{color:rgb(3, 79, 243)}
+.text-brown{color:rgb(150, 78, 243)}
+.text-pink{color:rgb(243, 4, 211)}
+.text-magenta{color:rgb(240, 16, 72)}
+.text-red{color:rgb(243, 2, 2)}
+.text-gray{color:rgb(207, 211, 210)}
+.text-black{color:rgb(17, 16, 16)}
+.bg-gray{background-color: rgb(209, 206, 206)}
+.bg-pink{background-color: pink}
+.bg-green{background-color: green}
+.bg-blue{background-color: blue}
+.bg-yellow{background-color: yellow}
+.bg-red{background-color: red}
+.bg-magenta{background-color: magenta}
+.bg-brown{background-color: brown}
+.bg-black{background-color: black}
+.bg-light-black{background-color: rgb(83, 76, 76)}
+.bg-light-green{background-color: rgb(149, 235, 146)}
+.text-center{text-align: center}
+.row{margin: 10px}
+.col-md-4{width: 33%;height: auto;padding: 10px;display: inline-block;}
+.col-md-3{width: 25%;height: auto;padding: 10px;display: inline-block}
+.banner{background-image: url("../images/nature.jpg");background-repeat: no-repeat;background-position: center;background-size: cover;height: 200px;width: 100%}
+.card{padding: 5px; border: 2px solid #807b7b;box-shadow: 2px 2px 2px 2px #807b7b;text-align: center}

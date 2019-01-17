@@ -1,0 +1,35 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "First webpack pwa",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -c-1",
+    "build": "webpack -d --progress --profile --colors --config=webpack.config.js",
+    "watch": "webpack -d --progress --profile --watch --colors --config=webpack.config.js",
+    "prod": "webpack -p --progress --profile --colors --config=webpack.config.js"
+  },
+  "author": "Fahim",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "http-server": "^0.11.1",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.6"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "style-loader": "^0.23.1",
+    "sw-precache": "^5.2.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
